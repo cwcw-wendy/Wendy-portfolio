@@ -1,0 +1,84 @@
+/*手機375*/
+.container {
+    width: 375px;
+}
+.entry {
+    padding-top: 50px;
+    height: 600px;
+
+}
+.intro {
+    margin-top: 50px;
+}
+
+.banner {
+    
+    height: 300px;
+        background-color: #fff;
+        color: #a0a1a3;
+        text-align: center;
+        padding: 0px 10px;
+}
+
+.banner:hover {
+    color: #000000
+
+}
+
+/*平板768*/
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .entry {
+        padding-top: 50px;
+        height: 600px;
+    }
+
+    .banner {
+
+        height: 200px;
+        background-color: #fff;
+        color: #a0a1a3;
+        text-align: center;
+        padding: 0px 100px;
+    }
+
+    .banner:hover {
+        color: #000000
+    }
+    
+}
+   
+    
+
+
+
+
+/*手機1200*/
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin: auto;
+    }
+    .entry {
+        padding-top: 20px;
+        height: 600px;
+
+    }
+
+    .banner {
+
+        height: 180px;
+        background-color: #fff;
+        color: #a0a1a3;
+        text-align: center;
+        padding: 0px 300px;
+    }
+
+    .banner:hover {
+        color: #000000
+    }
+
+
+}
